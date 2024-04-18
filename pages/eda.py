@@ -45,8 +45,8 @@ madrid_map = folium.Map(location=[40.4168, -3.7038], zoom_start=12)
 # Crear un cluster de marcadores
 marker_cluster = MarkerCluster().add_to(madrid_map)
 # Añadir marcadores para cada parada
-# for index, row in df_combinado_nonull.iterrows():
-#     folium.Marker(location=[row['latitud'], row['longitud']], popup=row['codigo_parada']).add_to(marker_cluster)
+for index, row in df_combinado_nonull.iterrows():
+    folium.Marker(location=[row['latitud'], row['longitud']], popup=row['codigo_parada']).add_to(marker_cluster)
 # Guardar el mapa como un archivo HTML
 mapa_html = madrid_map._repr_html_()
 # Mostrar el mapa en la aplicación de Streamlit
