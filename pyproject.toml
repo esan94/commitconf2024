@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "emt"
+version = "0.1.0"
+description = ""
+authors = ["Esteban Sánchez <esteban.sanchez@bravent.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+pandas = "^2.2.0"
+networkx = "^3.2.1"
+ipykernel = "^6.29.0"
+streamlit = "^1.31.0"
+loguru = "^0.7.2"
+matplotlib = "^3.8.2"
+scipy = "^1.12.0"
+openpyxl = "^3.1.2"
+folium = "^0.16.0"
+openai = "^1.16.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
