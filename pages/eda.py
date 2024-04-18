@@ -634,7 +634,7 @@ A partir de este análisis previo, surge la necesidad de examinar el impacto amb
 En este bloque de contaminación, se explora cómo la operación de la red de autobuses contribuye a los niveles de contaminación (emisiones de CO2) en la 
 ciudad y cómo estos niveles pueden variar en función de los kilómetros recorrido.
 
-Para este análisis se ha recurrido a la información de Observatorio de Servicios Urbanos: https://www.osur.es/2017/03/27/contaminacion-y-transporte-publico/ ,
+Para este análisis se ha recurrido a la información de Observatorio de Servicios Urbanos: [click aqui](https://www.osur.es/2017/03/27/contaminacion-y-transporte-publico/) ,
 que indica que un autobús de media emite 750 gramos de CO2 por kilómetro recorrido.
 """
 st.write(texto)
