@@ -102,6 +102,7 @@ for i in range(num_rows):
 
 
 st.markdown(body="## :telephone_receiver: Contacto")
-st.markdown('### Únete a nosotros: talentmanagement@bravent.net')
-
-
+st.markdown('#### Únete a nosotros: ')
+st.write('talentmanagement@bravent.net')
+st.markdown('#### ¿Algún proyecto en mente? Innova con nosotros')
+st.write('eduardo.garcia@bravent.net')
