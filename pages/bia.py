@@ -99,3 +99,9 @@ for i in range(num_rows):
         if index < len(image_urls):
             with row[j]:
                 st.image(image_urls[index], width=image_width, use_column_width=False)
+
+
+st.markdown(body="## :telephone_receiver: Contacto")
+st.markdown('### Únete a nosotros: talentmanagement@bravent.net')
+
+
